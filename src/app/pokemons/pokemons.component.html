@@ -1,0 +1,31 @@
+<p>pokemons works!</p>
+
+<div class="container">
+  <div *ngFor="let pokemon of pokemons.results">
+    <div class="info">{{ pokemon.name }}</div>
+    <!-- <div
+      class="card bg-{{ getType(pokemon) }}"
+      [routerLink]="['/view', pokemon.name]"
+    > 
+    <div class="info">
+      <h3 class="pokemonId">#{{ pokemon.id }}</h3>
+      <h3 class="name">{{ pokemon.name | titlecase }}</h3>
+      <div class="types">
+        <span *ngFor="let type of pokemon.types" class="type">
+          {{ type.type.name | titlecase }}</span
+        >
+      </div>
+    </div>
+    <div class="pokemon">
+      <img
+        class="image"
+        src="{{ pokemon.sprites.other.dream_world.front_default }}"
+        alt="{{ pokemon.name }}"
+      />
+    </div>
+  </div>-->
+  </div>
+</div>
+<!-- <button (click)="loadMore()">
+  {{ loading ? "Loading..." : "Load More" }}
+</button> -->
